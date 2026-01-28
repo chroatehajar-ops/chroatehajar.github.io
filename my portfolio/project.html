@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/jpg" href="theFavicon.jpeg" > <!--the icon of my portfolio-->
+
+    <link rel="stylesheet" href="project.css">
+
+    <title>Hajjar Chroate | Portfolio</title>
+
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <!-- NAVBAR -->
+        <nav>
+            <div class="left">
+            <a href="">Hajjar Chroate</a>
+            </div>
+
+            <div class="right">
+            <a href="www.linkedin.com/in/hajjar-chroate-018509395" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+            
+            <a href="mailto:hajjar.chroate@esi.ac.ma">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            </div>
+        </nav>
+        <img src="mypicture.jpeg" alt="My photo" class="profile-pic">
+        <h1 class="welcome-text">Welcome to my Portfolio</h1>
+    </header>
+
+    <main>
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+        <div class="text">
+            <h2>Hi, I'm Hajjar 👋</h2>
+            <p>I am a motivated student with a strong interest in technology and digital creation, currently learning web development through hands-on projects that allow me to combine creativity with logical thinking. This portfolio is designed to present my skills, learning journey while demonstrating my ability to structure and design a complete website using modern HTML and CSS practices.</p>
+
+            <div class="links">
+            <ul>
+                <li><a href="#about">
+                    <i class="fa-solid fa-code"></i>
+                    <span>About this project</span>
+                </a></li>
+                
+                <li><a href="#skills">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Skills</span>
+                </a></li>
+                
+                <li><a href="#learning">
+                    <i class="fa-solid fa-timeline"></i>
+                    <span>Learning Timeline</span>
+                </a></li>
+
+                <li><a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contact</span>
+                </a></li>
+            </ul>
+            </div>
+        </div>
+        </section>
+
+        <!-- SECTION 2: About -->
+        <section id="about" class="about-section">
+        <h2>About This Project</h2>
+
+        <div class="group">
+            <div class="text">
+            <p>
+                This portfolio project was designed to demonstrate my proficiency in HTML and CSS, while applying semantic HTML5 elements, responsive design techniques, and professional layout principles. 
+                Each section — from my hero section to the contact form — is structured to provide clarity, usability, and accessibility. The design also integrates visual enhancements such as shadows, color contrast, and smooth transitions to create a modern web experience. 
+                This project represents not only a technical achievement but also a careful attention to aesthetics and functionality.
+            </p>
+            <p>
+                Throughout the project, I focused on creating reusable CSS classes, implementing a grid and flex layout for responsive adaptability, and using a consistent color palette for visual cohesion. 
+                The goal was to produce a portfolio that is both visually appealing and fully evaluable for academic purposes.
+            </p>
+            </div>
+        </div>
+        </section>
+       
+        
+        <!-- SECTION 3: Skills -->
+        <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+            Through my studies and personal practice, I have developed a solid foundation in front-end web development. I am comfortable using HTML to structure semantic and accessible web pages, CSS to design responsive and visually coherent layouts, and JavaScript to add basic interactivity. I am also discovering modern tools and frameworks such as Node.js and React, which help me understand how dynamic and scalable web applications are built in real-world projects.
+        </div>
+
+        <div class="cells">
+            <div class="cell">
+            <img src="html-logo.webp" alt="html logo">
+            <span>HTML</span>
+            </div>
+            
+            <div class="cell">
+            <img src="css-logo.webp" alt="css logo">
+            <span>CSS</span>
+            </div>
+            
+            <div class="cell">
+            <img src="javascript-logo.webp" alt="javascript logo">
+            <span>JavaScript</span>
+            </div>
+            
+            <div class="cell">
+            <img src="node-logo.webp" alt="node logo">
+            <span>Node.js</span>
+            </div>
+            
+            <div class="cell">
+            <img src="react-logo.webp" alt="react logo">
+            <span>React.js</span>
+            </div>
+        </div>
+        </section>
+
+
+        <!-- section 4: TABLE -->
+            <section id="learning" class="timeline-section">
+            <h2>Learning Timeline</h2>
+
+            <p class="timeline-intro">
+                This table presents the different stages of my learning journey in web development,
+                highlighting the technologies studied, the context in which they were learned,
+                and the skills progressively acquired over time.
+            </p>
+            
+            <div class="table-container">
+                <table>
+                <thead>
+                    <tr>
+                    <th>Period</th>
+                    <th>Technology</th>
+                    <th>Context</th>
+                    <th>Main Skills Acquired</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                    <td>2024</td>
+                    <td>HTML5</td>
+                    <td>Academic coursework</td>
+                    <td>Semantic structure, accessibility, page organization</td>
+                    </tr>
+
+                    <tr>
+                    <td>2024</td>
+                    <td>CSS3</td>
+                    <td>Personal projects</td>
+                    <td>Layouts, Flexbox, responsive design, visual styling</td>
+                    </tr>
+
+                    <tr>
+                    <td>2025</td>
+                    <td>JavaScript</td>
+                    <td>Self-learning & practice</td>
+                    <td>DOM manipulation, basic interactivity</td>
+                    </tr>
+
+                    <tr>
+                    <td>2025</td>
+                    <td>Git & GitHub</td>
+                    <td>Project hosting</td>
+                    <td>Version control, collaboration, deployment</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+            </section>
+
+
+        <!-- SECTION 5: Contact -->
+            <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                <p>
+                    This contact section allows visitors to reach me for academic discussions, or collaboration opportunities. I value clear communication
+                    and I am always open to constructive exchanges.
+                </p>
+                </div>
+
+                <form action="#" method="post">
+                <fieldset>
+                    <legend>Send me a message</legend>
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </fieldset>
+                </form>
+            </div>
+            </section>
+
+    </main>
+
+    <!-- ===== QR CODE ===== -->
+    <aside class="qr-code">
+        <img src="qrcode.png" alt="QR code to my GitHub page">
+    </aside>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="buttons">
+            <a href="#top" class="btn">⬆ Back to Top</a><br><br>
+            <p>Scan the QR code to visit my GitHub account</p><br>
+        </div>
+        <p id="copyright">© 2026 Hajjar Chroate — All rights reserved</p><br>
+        <pre>
+    H A J J A R
+    C H R O A T E
+        </pre>
+    </footer>
+
+</body>
+</html>  
